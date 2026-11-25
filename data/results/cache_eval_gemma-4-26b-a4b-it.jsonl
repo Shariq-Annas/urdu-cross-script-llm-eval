@@ -1,0 +1,16 @@
+{"cache_key": "279bf575d25c1d946578bcb43f5656817a53d2255f16dbeebca04226af4ef1a3", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"C\"}", "input_tokens": 252, "output_tokens": 6, "latency_s": 1.3807}
+{"cache_key": "cc1822e09a8333d906675011d9f5c6491f92da65122ab1426471cd321de75293", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"A\"}", "input_tokens": 253, "output_tokens": 6, "latency_s": 1.3882}
+{"cache_key": "5c1695195367051e8b6f1f87078e2e0e319d2a91f0d54e7e4ad38263f01cd7e4", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"C\"}", "input_tokens": 166, "output_tokens": 6, "latency_s": 1.1109}
+{"cache_key": "081bbb7f8a8b44b68badfca9483adb6ec14b709eba82828c258d638f80c3653a", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"A\"}", "input_tokens": 212, "output_tokens": 6, "latency_s": 1.3608}
+{"cache_key": "af91bf01c9513d05e92cdb592602139ab59f2e8f7ef78931d90857b4571541ff", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"A\"}", "input_tokens": 151, "output_tokens": 6, "latency_s": 1.0141}
+{"cache_key": "83140f87cabfbe0ae03c7058982169d4217270f5cc4df687e58503c52d524780", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"B\"}", "input_tokens": 210, "output_tokens": 6, "latency_s": 15.1783}
+{"cache_key": "67f92e45d26c5f8e4e31fd93b5dd04bd91edabd3410753306283ffa7afa0c9d5", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"D\"}", "input_tokens": 149, "output_tokens": 6, "latency_s": 9.0143}
+{"cache_key": "cc123e98da7e3300b2c0d6dca33640c509d4cfac376b6ee7a72d0902e9b54902", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"A\"}", "input_tokens": 163, "output_tokens": 6, "latency_s": 1.137}
+{"cache_key": "b8d7f6a672df34a5b0667241b57c892d14459708d480ce93d268cad2d0b34f9c", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"A\"}", "input_tokens": 166, "output_tokens": 6, "latency_s": 8.0642}
+{"cache_key": "e242c58fc67bef594e5b20d3d0500818fa16d84443c7510b641a4d09b1f22791", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"B\"}", "input_tokens": 154, "output_tokens": 6, "latency_s": 9.7108}
+{"cache_key": "35894366e7bf6c9febfc69c5546c355a7dde395051750e52c8dccedbbd2ccffa", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"A\"}", "input_tokens": 180, "output_tokens": 6, "latency_s": 1.0013}
+{"cache_key": "b7d682516a63a3b50bcd0b63c410e1291f18361777d69c2011315e14e90f7832", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"A\"}", "input_tokens": 159, "output_tokens": 6, "latency_s": 1.4111}
+{"cache_key": "7e701b9e4ec4aeed1c750d89966bd385bb7763abdea8fc6f6047b57a72764d95", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"B\"}", "input_tokens": 206, "output_tokens": 6, "latency_s": 1.0198}
+{"cache_key": "e0f569ab332ef54eeb0be982302a566767dad7e3ac46e51ed89b6b9ca5a67b0d", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"D\"}", "input_tokens": 194, "output_tokens": 6, "latency_s": 1.2402}
+{"cache_key": "0d42c0db45e8955364f58436eec7ff0982c8c91df5cd61c9326760295c7eab13", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"C\"}", "input_tokens": 197, "output_tokens": 6, "latency_s": 11.0867}
+{"cache_key": "af7cddc4d3724fbb605942af887157c1a1f6a2e0af82273c4b1ccc91ea87fdfb", "model": "gemma-4-26b-a4b-it", "text": "{\"answer\": \"D\"}", "input_tokens": 148, "output_tokens": 6, "latency_s": 1.2377}

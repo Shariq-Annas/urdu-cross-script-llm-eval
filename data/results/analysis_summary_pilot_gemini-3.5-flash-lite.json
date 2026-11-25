@@ -1,0 +1,320 @@
+{
+  "scope": "pilot",
+  "model": "gemini-3.5-flash-lite",
+  "benchmarks": {
+    "Belebele Reading Comprehension": {
+      "summary": [
+        {
+          "condition": "eng_Latn",
+          "n": 45,
+          "accuracy": 100.0,
+          "ci_low": 100.0,
+          "ci_high": 100.0,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 192.9,
+          "avg_output_tokens": 6.8,
+          "avg_latency_s": 1.357
+        },
+        {
+          "condition": "urd_Arab",
+          "n": 45,
+          "accuracy": 86.67,
+          "ci_low": 75.56,
+          "ci_high": 95.56,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 259.0,
+          "avg_output_tokens": 6.4,
+          "avg_latency_s": 2.192
+        },
+        {
+          "condition": "urd_Latn_corpus",
+          "n": 45,
+          "accuracy": 86.67,
+          "ci_low": 75.56,
+          "ci_high": 95.56,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 296.8,
+          "avg_output_tokens": 7.0,
+          "avg_latency_s": 1.409
+        },
+        {
+          "condition": "urd_Latn_hybrid",
+          "n": 45,
+          "accuracy": 84.44,
+          "ci_low": 73.33,
+          "ci_high": 93.33,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 289.7,
+          "avg_output_tokens": 7.1,
+          "avg_latency_s": 0.954
+        },
+        {
+          "condition": "urd_Latn_tfta_single",
+          "n": 45,
+          "accuracy": 88.89,
+          "ci_low": 80.0,
+          "ci_high": 97.78,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 364.7,
+          "avg_output_tokens": 248.8,
+          "avg_latency_s": 1.869
+        }
+      ],
+      "mcnemar_comparisons": [
+        {
+          "n": 45,
+          "both_correct": 39,
+          "a_only_correct": 6,
+          "b_only_correct": 0,
+          "both_wrong": 0,
+          "diff_pp": -13.33,
+          "p_value": 0.03125,
+          "exact_test": true,
+          "condition_a": "eng_Latn",
+          "condition_b": "urd_Arab"
+        },
+        {
+          "n": 45,
+          "both_correct": 38,
+          "a_only_correct": 1,
+          "b_only_correct": 1,
+          "both_wrong": 5,
+          "diff_pp": 0.0,
+          "p_value": 1.0,
+          "exact_test": true,
+          "condition_a": "urd_Arab",
+          "condition_b": "urd_Latn_corpus"
+        },
+        {
+          "n": 45,
+          "both_correct": 37,
+          "a_only_correct": 2,
+          "b_only_correct": 1,
+          "both_wrong": 5,
+          "diff_pp": -2.22,
+          "p_value": 1.0,
+          "exact_test": true,
+          "condition_a": "urd_Arab",
+          "condition_b": "urd_Latn_hybrid"
+        },
+        {
+          "n": 45,
+          "both_correct": 38,
+          "a_only_correct": 1,
+          "b_only_correct": 0,
+          "both_wrong": 6,
+          "diff_pp": -2.22,
+          "p_value": 1.0,
+          "exact_test": true,
+          "condition_a": "urd_Latn_corpus",
+          "condition_b": "urd_Latn_hybrid"
+        },
+        {
+          "n": 45,
+          "both_correct": 38,
+          "a_only_correct": 1,
+          "b_only_correct": 2,
+          "both_wrong": 4,
+          "diff_pp": 2.22,
+          "p_value": 1.0,
+          "exact_test": true,
+          "condition_a": "urd_Latn_corpus",
+          "condition_b": "urd_Latn_tfta_single"
+        },
+        {
+          "n": 45,
+          "both_correct": 37,
+          "a_only_correct": 1,
+          "b_only_correct": 3,
+          "both_wrong": 4,
+          "diff_pp": 4.44,
+          "p_value": 0.625,
+          "exact_test": true,
+          "condition_a": "urd_Latn_hybrid",
+          "condition_b": "urd_Latn_tfta_single"
+        }
+      ]
+    },
+    "Urdu Idioms (3-Script Meaning)": {
+      "summary": [
+        {
+          "condition": "eng_Latn",
+          "n": 30,
+          "accuracy": 100.0,
+          "ci_low": 100.0,
+          "ci_high": 100.0,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 122.9,
+          "avg_output_tokens": 6.8,
+          "avg_latency_s": 7.087
+        },
+        {
+          "condition": "urd_Arab",
+          "n": 30,
+          "accuracy": 100.0,
+          "ci_low": 100.0,
+          "ci_high": 100.0,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 124.4,
+          "avg_output_tokens": 6.5,
+          "avg_latency_s": 9.221
+        },
+        {
+          "condition": "urd_Latn",
+          "n": 30,
+          "accuracy": 96.67,
+          "ci_low": 90.0,
+          "ci_high": 100.0,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 127.3,
+          "avg_output_tokens": 6.7,
+          "avg_latency_s": 9.013
+        },
+        {
+          "condition": "urd_Latn_tfta",
+          "n": 30,
+          "accuracy": 96.67,
+          "ci_low": 90.0,
+          "ci_high": 100.0,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 199.3,
+          "avg_output_tokens": 51.0,
+          "avg_latency_s": 8.377
+        }
+      ],
+      "mcnemar_comparisons": [
+        {
+          "n": 30,
+          "both_correct": 30,
+          "a_only_correct": 0,
+          "b_only_correct": 0,
+          "both_wrong": 0,
+          "diff_pp": 0.0,
+          "p_value": 1.0,
+          "exact_test": true,
+          "condition_a": "eng_Latn",
+          "condition_b": "urd_Arab"
+        },
+        {
+          "n": 30,
+          "both_correct": 29,
+          "a_only_correct": 1,
+          "b_only_correct": 0,
+          "both_wrong": 0,
+          "diff_pp": -3.33,
+          "p_value": 1.0,
+          "exact_test": true,
+          "condition_a": "urd_Arab",
+          "condition_b": "urd_Latn"
+        },
+        {
+          "n": 30,
+          "both_correct": 29,
+          "a_only_correct": 0,
+          "b_only_correct": 0,
+          "both_wrong": 1,
+          "diff_pp": 0.0,
+          "p_value": 1.0,
+          "exact_test": true,
+          "condition_a": "urd_Latn",
+          "condition_b": "urd_Latn_tfta"
+        },
+        {
+          "n": 30,
+          "both_correct": 29,
+          "a_only_correct": 1,
+          "b_only_correct": 0,
+          "both_wrong": 0,
+          "diff_pp": -3.33,
+          "p_value": 1.0,
+          "exact_test": true,
+          "condition_a": "urd_Arab",
+          "condition_b": "urd_Latn_tfta"
+        }
+      ]
+    },
+    "Urdu Idioms (Raw Equivalence)": {
+      "summary": [
+        {
+          "condition": "urd_Arab",
+          "n": 40,
+          "accuracy": 97.5,
+          "ci_low": 92.5,
+          "ci_high": 100.0,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 96.4,
+          "avg_output_tokens": 6.6,
+          "avg_latency_s": 3.05
+        },
+        {
+          "condition": "urd_Latn",
+          "n": 40,
+          "accuracy": 95.0,
+          "ci_low": 87.5,
+          "ci_high": 100.0,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 99.3,
+          "avg_output_tokens": 6.9,
+          "avg_latency_s": 1.593
+        },
+        {
+          "condition": "urd_Latn_tfta",
+          "n": 40,
+          "accuracy": 92.5,
+          "ci_low": 82.5,
+          "ci_high": 100.0,
+          "parse_rate": 100.0,
+          "avg_input_tokens": 171.3,
+          "avg_output_tokens": 66.0,
+          "avg_latency_s": 1.648
+        }
+      ],
+      "mcnemar_comparisons": [
+        {
+          "n": 40,
+          "both_correct": 38,
+          "a_only_correct": 1,
+          "b_only_correct": 0,
+          "both_wrong": 1,
+          "diff_pp": -2.5,
+          "p_value": 1.0,
+          "exact_test": true,
+          "condition_a": "urd_Arab",
+          "condition_b": "urd_Latn"
+        },
+        {
+          "n": 40,
+          "both_correct": 37,
+          "a_only_correct": 1,
+          "b_only_correct": 0,
+          "both_wrong": 2,
+          "diff_pp": -2.5,
+          "p_value": 1.0,
+          "exact_test": true,
+          "condition_a": "urd_Latn",
+          "condition_b": "urd_Latn_tfta"
+        },
+        {
+          "n": 40,
+          "both_correct": 37,
+          "a_only_correct": 2,
+          "b_only_correct": 0,
+          "both_wrong": 1,
+          "diff_pp": -5.0,
+          "p_value": 0.5,
+          "exact_test": true,
+          "condition_a": "urd_Arab",
+          "condition_b": "urd_Latn_tfta"
+        }
+      ]
+    }
+  },
+  "backtransliteration_fidelity": {
+    "urd_Latn_tfta_single": {
+      "n_scored": 44,
+      "mean_char_sim_all": 0.9427,
+      "mean_char_sim_correct": 0.9421,
+      "mean_char_sim_wrong": 0.9479
+    }
+  }
+}
